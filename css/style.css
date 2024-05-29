@@ -341,7 +341,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("images/banner.jpg") center #000;
+  background: url("images/banner3.jpg") center #000;
   background-size: cover;
   z-index: -1;
 }
@@ -356,9 +356,8 @@ body {
 #logo,
 #subtitle {
   text-decoration: none;
-  color: #fff;
+  color: rgb(71, 66, 67);
   font-weight: 300;
-  text-shadow: 0 1px 4px rgba(0,0,0,0.3);
 }
 #logo {
   font-size: 40px;
@@ -375,13 +374,14 @@ body {
 }
 #main-nav {
   float: left;
-  margin-left: -15px;
+
 }
 .nav-icon,
 .main-nav-link {
   float: left;
-  color: #fff;
-  opacity: 0.6;
+  color: rgb(255, 255, 255);
+  opacity: 0.8;
+  background: rgb(255, 84, 112);
   text-decoration: none;
   text-shadow: 0 1px rgba(0,0,0,0.2);
   -webkit-transition: opacity 0.2s;
@@ -423,7 +423,6 @@ body {
 }
 #sub-nav {
   float: right;
-  margin-right: -15px;
 }
 #search-form-wrap {
   position: absolute;
@@ -1272,21 +1271,22 @@ pre .javascript .function {
 }
 .widget {
   color: #777;
-  text-shadow: 0 1px #fff;
-  background: #ddd;
+  background: pink;
   -webkit-box-shadow: 0 -1px 4px #ccc inset;
-  box-shadow: 0 -1px 4px #ccc inset;
+  box-shadow: 0 -1px 4px #c4fe5e inset;
   border: 1px solid #ccc;
   padding: 15px;
   border-radius: 3px;
 }
 .widget a {
-  color: #258fb8;
+  color: rgb(222, 74, 99);
   text-decoration: none;
 }
-.widget a:hover {
-  text-decoration: underline;
+.widget a:hover{
+  color: greenyellow;
+  text-decoration: none;
 }
+
 .widget ul ul,
 .widget ol ul,
 .widget dl ul,
